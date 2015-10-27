@@ -247,8 +247,8 @@ if (typeof module !== "undefined" && typeof exports !== "undefined" && module.ex
                         ulClass: classIfDefined($scope.options.injectClasses.ul, true),
                         nodeChildren:  $scope.options.nodeChildren,
                         liClass: classIfDefined($scope.options.injectClasses.li, true),
-                        iLeafClass: classIfDefined($scope.options.injectClasses.iLeaf, false),
-                        labelClass: classIfDefined($scope.options.injectClasses.label, false)
+                        iLeafClass: classIfDefined($scope.options.injectClasses.iLeaf, true),
+                        labelClass: classIfDefined($scope.options.injectClasses.label, true)
                     };
 
                     var template;
